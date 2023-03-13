@@ -28,8 +28,6 @@ CREATE TABLE `t_review` (
   `title` varchar(300) COLLATE utf8_bin NOT NULL,
   `contents` text COLLATE utf8_bin NOT NULL,
   `hit_cnt` smallint(10) DEFAULT '0',
-  `check_in` date NOT NULL,
-  `check_out` date NOT NULL,
   `regist_dt` date NOT NULL,
   `updated_dt` date DEFAULT NULL,
   `deleted_yn` char(1) COLLATE utf8_bin DEFAULT 'N',
